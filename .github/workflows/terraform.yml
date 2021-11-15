@@ -42,7 +42,7 @@
 #       with:
 #         cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
 
-name: 'Terraform1'
+name: 'Terraform2'
 
 on:
   push:
@@ -52,7 +52,7 @@ on:
 
 jobs:
   terraform:
-    name: 'Terraform1'
+    name: 'Terraform2'
     runs-on: ubuntu-latest
     environment: production
 
